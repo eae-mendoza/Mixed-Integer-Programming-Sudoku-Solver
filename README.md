@@ -2,7 +2,7 @@
 
 A basic, but different implementation of a Sudoku Solver using Mixed-Integer-Programming.
 
-Uses not-equal to constraints instead of truth-value type of constraints that most examples on the internet use. Most datascience blogs simply paraphrase/refactor the code found on the
+Uses not-equal-to constraints instead of truth-value type of constraints that most examples on the internet use. Most datascience blogs simply paraphrase/refactor the code found on the
 PuLP Sudoku documentation page. This uses a different, but equivalent, type of constraints that are not natively linear. The absolute difference is linearized using pair-wise
 comparisons and a binary variable. 
 
